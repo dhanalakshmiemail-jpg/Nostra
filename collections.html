@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collections | Nostra</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="announcement">
+        ✨ Find your next favourite look with Nostra.
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">nostra<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="collections.html" class="active">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <a href="contact.html" class="nav-button">Get in Touch ↗</a>
+    </nav>
+
+    <main>
+
+        <section class="collection-hero">
+            <p class="eyebrow">THE NOSTRA EDIT / 2026</p>
+
+            <h1>Find your<br>kind of <span>beautiful.</span></h1>
+
+            <p>
+                Thoughtfully selected styles. Everyday essentials.
+                Pieces that feel uniquely yours.
+            </p>
+        </section>
+
+        <section class="collection-section">
+
+            <div class="collection-top">
+                <div>
+                    <p class="eyebrow">YOUR NEXT FAVOURITE</p>
+                    <h2>Explore the collection</h2>
+                    <p class="muted-text">
+                        Discover styles made for every moment.
+                    </p>
+                </div>
+
+                <div class="product-count" id="productCount">
+                    12 products
+                </div>
+            </div>
+
+            <div class="filter-panel">
+
+                <div class="search-box">
+                    <span>⌕</span>
+
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search shirts, shoes, bags..."
+                        aria-label="Search products"
+                    >
+                </div>
+
+                <select id="categoryFilter" aria-label="Filter by category">
+                    <option value="All">All Categories</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="Footwear">Footwear</option>
+                </select>
+
+                <select id="sortFilter" aria-label="Sort products">
+                    <option value="default">Sort: Featured</option>
+                    <option value="low">Price: Low to High</option>
+                    <option value="high">Price: High to Low</option>
+                    <option value="name">Name: A to Z</option>
+                </select>
+
+            </div>
+
+            <div class="active-filter-row">
+                <p id="resultMessage">Showing all products</p>
+
+                <button id="clearFilters" class="clear-btn" type="button">
+                    Clear filters ↺
+                </button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+
+                <!-- JavaScript displays the products here -->
+
+            </div>
+
+            <div id="noProducts" class="no-products" hidden>
+                <span>⌕</span>
+                <h3>No products found</h3>
+                <p>Try a different search term or category.</p>
+
+                <button class="primary-btn" id="resetSearch" type="button">
+                    Show All Products
+                </button>
+            </div>
+
+        </section>
+
+        <section class="newsletter">
+            <p class="eyebrow">NEED A LITTLE HELP?</p>
+            <h2>We're here for you.</h2>
+            <p>Have a question about our collection? We'd love to hear from you.</p>
+
+            <a href="contact.html" class="primary-btn">
+                Contact Us →
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">nostra<span>.</span></a>
+        <p>Wear what feels like you.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copyright">© 2026 Nostra. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

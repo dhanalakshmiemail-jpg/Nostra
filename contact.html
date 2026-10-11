@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Nostra</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="announcement">
+        ♡ We'd love to hear from you. Let's connect!
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">nostra<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+
+        <a href="collections.html" class="nav-button">Explore Styles ↗</a>
+    </nav>
+
+    <main>
+
+        <section class="contact-hero">
+            <p class="eyebrow">LET'S TALK / WE'RE LISTENING</p>
+
+            <h1>Every great connection<br>starts with <span>hello.</span></h1>
+
+            <p>
+                Questions, feedback, or just want to say hi?
+                Our little corner of the internet is always open.
+            </p>
+        </section>
+
+        <section class="contact-layout">
+
+            <div class="contact-info">
+
+                <p class="eyebrow">GET IN TOUCH</p>
+
+                <h2>Let's make<br>something <span>great.</span></h2>
+
+                <p class="muted-text">
+                    Have a question about our collection?
+                    Send us a message using the form.
+                </p>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">✉</div>
+
+                    <div>
+                        <h3>Email us</h3>
+                        <p>hello@nostra.example</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">◷</div>
+
+                    <div>
+                        <h3>Business hours</h3>
+                        <p>Monday – Saturday</p>
+                        <p>9:00 AM – 6:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <div class="detail-icon">♡</div>
+
+                    <div>
+                        <h3>Our promise</h3>
+                        <p>Your questions matter to us.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contact-form-card">
+
+                <h2>Send us a message</h2>
+
+                <p class="muted-text">
+                    Fill in the details below.
+                </p>
+
+                <form id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="contactName">Your name</label>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                placeholder="Enter your name"
+                                required
+                                minlength="2"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">Email address</label>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+
+                        <select id="contactSubject" required>
+                            <option value="">Choose a subject</option>
+                            <option value="Product enquiry">Product enquiry</option>
+                            <option value="Order enquiry">Order enquiry</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage">Your message</label>
+
+                        <textarea
+                            id="contactMessage"
+                            rows="5"
+                            placeholder="Tell us how we can help..."
+                            required
+                            minlength="10"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="primary-btn submit-btn">
+                        Send Message →
+                    </button>
+
+                    <p id="contactStatus" class="form-status" role="status"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">nostra<span>.</span></a>
+        <p>Wear what feels like you.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copyright">© 2026 Nostra. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
